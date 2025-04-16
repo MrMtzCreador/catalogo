@@ -1,0 +1,69 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+/* Estilos para las tarjetas de damas */
+.card {
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Estilos para los servicios */
+.card-header {
+    background-color: #343a40;
+    color: white;
+}
+
+/* Estilos para el formulario de contacto */
+.form-control:focus {
+    border-color: #343a40;
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.25);
+}
+
+.btn-primary {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-primary:hover {
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+
+/* Estilos para las alertas */
+.alert {
+    border-radius: 0;
+}
+
+/* Estilos para las tablas */
+.table th {
+    background-color: #f8f9fa;
+}
+
+/* Estilos para los listados */
+.list-group-item {
+    border-left: none;
+    border-right: none;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 200px;
+    }
+} 
